@@ -7,7 +7,10 @@ console.log(`Nav exercise!`)
 // The UL in there is already hidden (display: none). Use the classList property.
 // You'll have to make another class in the CSS that represents the nav in its "open" state.
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
-
+document.querySelector(".hamburger").addEventListener('click', function() {
+	console.log('click hamburger');
+	document.querySelector("nav ul").classList.add("nav_open")
+})
 
 // 2. Using CSS, style the newly visible navigation to look nice.
 

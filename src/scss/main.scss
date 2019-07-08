@@ -74,6 +74,25 @@ header {
 		}
 		ul {
 			display: none;
+			position: fixed;
+			z-index: 100;
+			width: 100vw;
+			height: 100vh;
+			left: 0;
+			top: 0;
+			background: rgba(255,255,255,0.75);
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			&.nav_open {
+				display: flex;
+			}
+
+			li {
+				padding: 20px;
+				font-size: 25pt;
+			}
 		}
 	}
 }

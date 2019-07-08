@@ -1,2 +1,2 @@
-"use strict";console.log("Nav exercise!");
+"use strict";console.log("Nav exercise!"),document.querySelector(".hamburger").addEventListener("click",function(){console.log("click hamburger"),document.querySelector("nav ul").classList.add("nav_open")});
 //# sourceMappingURL=main.js.map
