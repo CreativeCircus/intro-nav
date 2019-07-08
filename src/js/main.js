@@ -1,6 +1,4 @@
-"use strict";
-
-console.log("Hello World from main.js!");
+console.log(`Nav exercise!`)
 
 // 0. Note: you will find countless ways to make a hamburger navigation work online.
 // We're going to do it with vanilla JS, and CSS classes. 
@@ -9,6 +7,7 @@ console.log("Hello World from main.js!");
 // The UL in there is already hidden (display: none). Use the classList property.
 // You'll have to make another class in the CSS that represents the nav in its "open" state.
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+
 
 // 2. Using CSS, style the newly visible navigation to look nice.
 

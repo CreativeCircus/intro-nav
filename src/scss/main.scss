@@ -6,12 +6,15 @@ AUTHOR:		Your Name Here
 
 TABLE OF CONTENTS:
 
+0. Reset
 1. Main Layout
 2. Content
 
 ==============================================
 */
 
+/* 0. Reset ================================= */
+@import 'reset';
 
 
 /* 1. Main Layout ================================= */
@@ -20,12 +23,18 @@ TABLE OF CONTENTS:
 	box-sizing: border-box;
 }
 
-.cf {
-	clear: both;
+body {
+	background: #ccc;
 }
+
+
+
+
+/* 2. Content ================================= */
 
 body {
 	background: #ccc;
+	font-family: sans-serif;
 }
 
 header {
@@ -49,11 +58,12 @@ header {
 		}
 	}
 	nav {
-		// flex-grow: 1;
-		// width: 50%;
-		text-align: right;
-		// float: right;
+
 		.hamburger {
+			position: absolute;
+			z-index: 101;
+			top: 30px;
+			right: 30px;
 			width: 32px;
 			margin-top: 25px;
 			div {
